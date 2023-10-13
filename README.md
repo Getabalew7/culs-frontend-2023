@@ -6,7 +6,7 @@ Welcome to Pepe's Prez, a presentation project with HTML files. This readme will
 
 1. [Project Structure](#project-structure)
 2. [HTML Files](#html-files)
-   - [Frontend CULS 2022](#frontend-culs-2022)
+   - [Frontend CULS 2023](#frontend-culs-2023)
    - [Tools](#tools)
    - [Content](#content)
    - [Presentation](#presentation)
@@ -17,7 +17,7 @@ Welcome to Pepe's Prez, a presentation project with HTML files. This readme will
 
 This project consists of HTML files that make up a presentation. Each HTML file represents a chapter in the presentation, and these chapters are organized as follows:
 
-- **Frontend CULS 2022**
+- **Frontend CULS 2023**
 - **Tools**
 - **Content**
 - **Presentation**
@@ -27,7 +27,7 @@ Each HTML file contains multiple sections, which represent the content of each c
 
 ## HTML Files<a name="html-files"></a>
 
-### Frontend CULS 2022<a name="frontend-culs-2022"></a>
+### Frontend CULS 2023<a name="frontend-culs-2023"></a>
 
 This chapter introduces the presentation and provides information about the speaker. It also covers topics like organization, theory, and project requirements.
 
