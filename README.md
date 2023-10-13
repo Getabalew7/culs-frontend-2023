@@ -1,39 +1,58 @@
-# Contemporary Frontend 23
+# Pepe's Prez - Read Me
 
-Materials for the course. Most of the information will get here.
+Welcome to Pepe's Prez, a presentation project with HTML files. This readme will provide you with an overview of the project structure and the contents of each HTML file.
 
-Most of the communication will be here.
+## Table of Contents
 
-## Links
+1. [Project Structure](#project-structure)
+2. [HTML Files](#html-files)
+   - [Frontend CULS 2022](#frontend-culs-2022)
+   - [Tools](#tools)
+   - [Content](#content)
+   - [Presentation](#presentation)
+   - [Scripting](#scripting)
+3. [Contact Information](#contact-information)
 
-### Monday
+## Project Structure<a name="project-structure"></a>
 
-* [Git](https://git-scm.com/)
-* [Mercurial](https://www.mercurial-scm.org/)
-* [GitHub](https://github.com)
-* [SourceHut](https://sr.ht/)
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [Electron JS](https://www.electronjs.org/)
-* [MDN Web Docs](https://developer.mozilla.org/en-US/)
-* [Hypermedia Systems](https://hypermedia.systems/)
+This project consists of HTML files that make up a presentation. Each HTML file represents a chapter in the presentation, and these chapters are organized as follows:
 
-### Tuesday
+- **Frontend CULS 2022**
+- **Tools**
+- **Content**
+- **Presentation**
+- **Scripting**
 
-* [HTML5 Boilerplate: The web’s most popular front-end template](https://html5boilerplate.com/)
-* [Sass: Syntactically Awesome Style Sheets](https://sass-lang.com/)
-* [Bootstrap · The most popular HTML, CSS, and JS library in the world.](https://getbootstrap.com/)
-* [Picnic CSS](https://picnicss.com/)
-* [Pico.css • Minimal CSS Framework for semantic HTML](https://picocss.com/)
-* [Why your website should be under 14kB in size](https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/)
-* [Glitch: The friendly community where everyone builds the web](https://glitch.com/dashboard)
+Each HTML file contains multiple sections, which represent the content of each chapter.
 
-## Wednesday
-# TODO ADD
+## HTML Files<a name="html-files"></a>
 
-## Thursday
+### Frontend CULS 2022<a name="frontend-culs-2022"></a>
 
-* [pepe's prez](https://shrouded-abiding-haze.glitch.me/)
-  
-# Friday
+This chapter introduces the presentation and provides information about the speaker. It also covers topics like organization, theory, and project requirements.
 
-Evaluation will be online. Link for the Google Meet will be here. We will meet there.
+### Tools<a name="tools"></a>
+
+This chapter discusses tools used in the presentation, including Source Control Management (Git and GitHub), code editors (Atom and Visual Studio Code), and developer tools.
+
+### Content<a name="content"></a>
+
+The Content chapter focuses on documents, data, and different content formats, such as HTML, XML, DOM, JSON, media, and more.
+
+### Presentation<a name="presentation"></a>
+
+This chapter explores aspects related to the visual presentation of content, including CSS, responsive design, frameworks, and communication in a web application.
+
+### Scripting<a name="scripting"></a>
+
+The Scripting chapter covers JavaScript, live screens, NPM packages, popular frameworks, transpilers, tooling, JavaScript engines, and other frontend development-related topics.
+
+## Contact Information<a name="contact-information"></a>
+
+For additional information or to reach out to the presenter, you can contact Pepe through the following channels:
+
+- Mixcloud: [@damnpepe](https://www.mixcloud.com/damnpepe)
+- SourceHut: [@pepe](https://sourcehut.org)
+- Telegram: @4207742778707
+
+Thank you for using Pepe's Prez. If you have any questions or need further assistance, please feel free to reach out to the presenter via the provided contact information. Enjoy the presentation!
