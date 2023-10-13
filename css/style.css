@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 .presentations {
@@ -43,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 80vw;
+  width: 90vw;
   height: 80vh;
   padding: 10vh 10vw;
 }
@@ -51,9 +51,6 @@ body {
 .chapter section h2 {
   margin-bottom: 8rem;
 }
-
-
-
 .icon {
   display: block;
   background-color: transparent;
