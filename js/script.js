@@ -13,7 +13,7 @@ let chapter = 0;
 let slides = [];
 let fadeTimeout;
 
-function init() {
+function startPresentation() {
   slides = chapterLengths.map(() => 0);
   moveChapter(-chapter);
 }
@@ -32,6 +32,7 @@ function moveSlide(delta) {
 }
 
 function moveChapter(delta) {
+  console.log(delta)
   titles[chapter].style.display = "none";
   chapter = Math.min(Math.max(chapter + delta, 0), chapters.length - 1);
   previousChapter.disabled = chapter === 0;
@@ -65,7 +66,7 @@ function keyMove(e) {console.log(e.key);
 
 function resetFadeTimeout() {
   clearTimeout(fadeTimeout);
-  fadeTimeout = setTimeout(fadeTools, 2500);
+  fadeTimeout = setTimeout(fadeTools, 2000);
 }
 
 function fadeTools() {
@@ -81,8 +82,8 @@ nextSlide.addEventListener("click", () => moveSlide(1));
 previousSlide.addEventListener("click", () => moveSlide(-1));
 nextChapter.addEventListener("click", () => moveChapter(1));
 previousChapter.addEventListener("click", () => moveChapter(-1));
-restart.addEventListener("click", () => init());
+restart.addEventListener("click", () => startPresentation());
 tools.addEventListener("mouseenter", unFadeTools);
 tools.addEventListener("mouseleave", resetFadeTimeout);
 body.addEventListener("keyup", keyMove);
-init();
+startPresentation();
